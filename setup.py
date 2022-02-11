@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-        name="helloworld",
+        name="helloworld-test-xz",
         version="0.0.1",
         description="say hello",
         long_description=long_description,
@@ -16,7 +16,7 @@ setup(
         package_dir={"":"src"},
         classifiers=[
             "Programming Language :: Python :: 3.6",
-            "License :: OSI Approved ::  GNU Lesser General Public License v3.0 (LGPL-3.0 License)",
+            "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
             ],
         install_requires=[
           'numpy',
